@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Surprise</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h2 {
+            color: #3498db;
+            text-align: center;
+            margin-bottom: 20px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <h2>HAPPY BIRTHDAY!</h2>
+    <div class="gift-box" onclick="openBox()">
+        <div class="lid" id="lid"></div>
+        <div class="box-body" id="boxBody">
+            <img id="giftImage" src="box.jpg" alt="Gift Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
